@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="monStyle_Index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Prompt:wght@400;700&display=swap"
+		rel="stylesheet">
+	<title>Boutique - Paint Wars</title>
+	<link rel="icon"
+		href="https://i.postimg.cc/wx2w2dWC/142-1428702-free-download-rebel-alliance-symbol-clipart-anakin-rebel.jpg">
+</head>
+
+<body>
+
+	<header class="topbar">
+		<nav>
+			<a href="index.html" class="active" title="Accueil">Accueil</a>
+			<a href="equipe.html" title="L'équipe">L'équipe</a>
+			<a href="recupTab.html" title="Votre panier">Votre panier</a>
+		</nav>
+		<div class="site-title">
+			<a href="index.html" class="button-home"><img id="logoSite"
+					src="https://i.postimg.cc/zB0TCqJp/142-1428702-free-download-rebel-alliance-symbol-clipart-anakin-rebel-removebg-preview.png"
+					alt="logo" /><img id="titreSite" src="https://i.postimg.cc/gJ35NSRL/titre-site-Paint-Wars.png"
+					alt="titre" /></a>
+			</a>
+		</div>
+		<a href="recupTab.html" target="blank" id="lienPanier">
+			<div class="nbArt" id="nbArt"></div>
+			<img id="icone-panier" alt="panier" title="panier" src="https://i.postimg.cc/cHMLnZGn/panier.png">
+		</a>
+	</header>
+
+	<div class="banniere">
+		<div class="slider-wrapper">
+			<button class="slide-arrow" id="slide-arrow-prev">
+				&#8249;
+			</button>
+			<button class="slide-arrow" id="slide-arrow-next">
+				&#8250;
+			</button>
+			<ul class="slides-container" id="slides-container">
+				<li class="slide"></li>
+				<li class="slide"></li>
+				<li class="slide"></li>
+				<li class="slide"></li>
+			</ul>
+		</div>
+	</div> <!-- banniere fermée -->
+
+	<div class="shopTitle">Que la force d'acheter soit avec vous !</div>
+
+	<div class="body">
+		<main class="main"> <!-- contient les produits à vendre (container) et le aside sticky pour le prix total -->
+			<div class="container"> <!--  Contient les produits à vendre  -->
+				<div class="ligneArticles"> <!-- une ligne d articles -->
+					<article class="article" id="article1"> <!-- un article-->
+						<a class="link-title" href="article.html" target="onclick">
+							<h2 class="article-title">Obi-Wan Kenobi</h2>
+						</a>
+						<a href="https://i.postimg.cc/BbGJZ72J/obi.jpg" class="article-img" target="blank">
+							<img src="https://i.postimg.cc/BbGJZ72J/obi.jpg" title="photo-article" />
+						</a>
+						<div class="textDate" id="textDate1">
+							Publié le 10 Septembre 2022
+						</div>
+						<div class="prixProduit" id="pxProd1">
+							<p><span id="pxProduit1">100</span> €</p>
+						</div>
+						<div id="total-switch1" class="total-switch">
+							<div id="decrement-count1">
+								<button>
+									-
+								</button>
+							</div>
+							<div id="total-count1" class="total-count">
+							</div>
+							<div id="increment-count1">
+								<button>
+									+
+								</button>
+							</div>
+						</div>
+					</article>
+					<article class="article" id="article2">
+						<a class="link-title" href="article.html" target="onclick">
+							<h2 class="article-title">Chewbacca</h2>
+						</a>
+						<a href="https://i.postimg.cc/fyhzH9Bv/choubi.jpg" class="article-img" target="blank">
+							<img src="https://i.postimg.cc/fyhzH9Bv/choubi.jpg" alt="choubi" title="photo-article" />
+						</a>
+
+						<div class="textDate" id="textDate2">Publié le 07 Septembre 2022
+						</div>
+						<div class="prixProduit" id="pxProd2">
+							<p><span id="pxProduit2">90</span> €</p>
+						</div>
+						<div id="total-switch2" class="total-switch">
+							<div id="decrement-count2">
+								<button>-</button>
+							</div>
+							<div id="total-count2" class="total-count">
+							</div>
+							<div id="increment-count2">
+								<button>+</button>
+							</div>
+						</div>
+					</article>
+					<article class="article" id="article3">
+						<a class="link-title" href="article.html" target="onclick">
+							<h2 class="article-title">Jar-Jar Binks</h2>
+						</a>
+						<a href="https://i.postimg.cc/jjLSCKDy/jarjar.jpg" class="article-img" target="blank">
+							<img src="https://i.postimg.cc/jjLSCKDy/jarjar.jpg" title="photo-article" />
+						</a>
+						<div class="textDate" id="textDate3">Publié le 10 Septembre 2022
+						</div>
+						<div class="prixProduit" id="pxProd3">
+							<p><span id="pxProduit3">70</span> €</p>
+						</div>
+						<div id="total-switch3" class="total-switch">
+							<div id="decrement-count3">
+								<button>-</button>
+							</div>
+							<div id="total-count3" class="total-count">
+							</div>
+							<div id="increment-count3">
+								<button>+</button>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="ligneArticles">
+
+					<article class="article" id="article4">
+						<a class="link-title" href="article.html" target="onclick">
+							<h2 class="article-title">Stormtrooper</h2>
+						</a>
+						<a href="https://i.postimg.cc/MKmTF9kf/stormtrooper.jpg" class="article-img" target="blank">
+							<img src="https://i.postimg.cc/MKmTF9kf/stormtrooper.jpg" alt="Stormtrooper"
+								title="photo-article" />
+						</a>
+						<div class="textDate" id="textDate4">
+							Publié le 10 Septembre 2022
+						</div>
+						<div class="prixProduit" id="pxProd4">
+							<p><span id="pxProduit4">45</span> €</p>
+						</div>
+						<div id="total-switch3" class="total-switch">
+							<div id="decrement-count4">
+								<button>-</button>
+							</div>
+							<div id="total-count4" class="total-count">
+							</div>
+							<div id="increment-count4">
+								<button>+</button>
+							</div>
+						</div>
+					</article>
+					<article class="article" id="article5">
+						<a class="link-title" href="article.html" target="onclick">
+							<h2 class="article-title">Dark Vador</h2>
+						</a>
+						<a href="https://i.postimg.cc/SKvjGRBZ/vador.jpg" class="article-img" target="blank">
+							<img src="https://i.postimg.cc/SKvjGRBZ/vador.jpg" alt="vador" title="photo-article" />
+						</a>
+						<div class="textDate">Publié le 02 Septembre 2022
+						</div>
+						<div class="prixProduit" id="pxProd5">
+							<p><span id="pxProduit5">140</span> €</p>
+						</div>
+						<div id="total-switch5" class="total-switch">
+							<div id="decrement-count5">
+								<button>
+									-
+								</button>
+							</div>
+							<div id="total-count5" class="total-count">
+							</div>
+							<div id="increment-count5">
+								<button>
+									+
+								</button>
+							</div>
+						</div>
+					</article>
+					<article class="article" id="article6">
+						<a class="link-title" href="article.html" target="onclick">
+							<h2 class="article-title">Yoda</h2>
+						</a>
+						<a href="https://i.postimg.cc/QdZt6vn3/yoda.jpg" class="article-img" target="blank">
+							<img src="https://i.postimg.cc/QdZt6vn3/yoda.jpg" alt="yoda" alt="yoda"
+								title="photo-article" />
+						</a>
+						<div class="textDate">Publié le 25 Août 2022
+						</div>
+						<div class="prixProduit" id="pxProd6">
+							<p><span id="pxProduit6">120</span> €</p>
+						</div>
+						<div id="total-switch6" class="total-switch">
+							<div id="decrement-count6">
+								<button>
+									-
+								</button>
+							</div>
+							<div id="total-count6" class="total-count">
+							</div>
+							<div id="increment-count6">
+								<button>
+									+
+								</button>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="ligneArticles">
+					<article id="newArticle1">
+					</article>
+					<article id="newArticle2">
+					</article>
+					<article id="newArticle3">
+					</article>
+				</div>
+			</div>
+		</main>
+		<div class="totalAside">
+			<p class="fontAside">Total à payer:</p>
+			<p class="totalPx">
+				<span id="totalPx"></span>
+				€
+			</p>
+			<div class="buttonsSide">
+				<div class="button-calcul">
+					<button id="button-calcul" class="buttonCalc">
+						Ajouter
+					</button>
+				</div>
+				<div class="button-lien">
+					<a href="recupTab.html">
+						<button id="button-lien" class="butLien">
+							Payer
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer-distributed">
+
+		<div class="footer-left">
+
+			<p class="footer-links">
+
+				<a class="link-1" href="index.html">Accueil</a>
+
+				<a href="equipe.html">L'équipe</a>
+
+				<a href="recupTab.html" id="panier">panier</a>
+
+			</p>
+
+			<p>Paint Wars &copy; 2022</p>
+
+			<a href="#" style="text-decoration: none; color:white;">Politique de confidentialités</a>
+		</div>
+		<div class="footer-right">
+			<a href="https://www.facebook.com" target="blank">
+				<img src="https://i.postimg.cc/xd9X69qk/fb.png" style="width: 28px; padding-bottom: 2px;" />
+			</a>
+			<a href="https://www.instagram.com" target="blank">
+				<img src="https://i.postimg.cc/766fyX3w/insta.png" style="width: 33px;margin-right: 2px ;" />
+			</a>
+			<a href="https://www.linkedin.com" target="blank">
+				<img src="https://i.postimg.cc/QMSHPvWf/linkedin.png" style="width: 36px;" />
+			</a>
+		</div>
+	</footer>
+	<script src="monScript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Prompt:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="recupTab.css">
+	<title>Récupération de tableaux</title>
+	<link rel="icon" href="https://i.postimg.cc/wx2w2dWC/142-1428702-free-download-rebel-alliance-symbol-clipart-anakin-rebel.jpg">
+</head>
+<body>
+	
+<header class="topbar">
+	<nav>
+		<a href="index.html"  title="Accueil">Accueil</a>
+		<a href="equipe.html"   title="L'équipe">L'équipe</a>
+		<a href="recupTab.html" title="Votre panier" class="active">Votre panier</a>
+	</nav>
+		<div class="site-title">
+			<a href="index.html" class="button-home">
+				<img id="logoSite" src="https://i.postimg.cc/zB0TCqJp/142-1428702-free-download-rebel-alliance-symbol-clipart-anakin-rebel-removebg-preview.png" alt="logo"/>
+				<img id="titreSite" src="https://i.postimg.cc/gJ35NSRL/titre-site-Paint-Wars.png" alt="titre"/>
+			</a>
+		</div>
+		<a href="recupTab.html" target="blank">
+			<div class="nbArt" id="nbArt" ></div>
+			<img id="icone-panier" alt="panier" title="panier" src="https://i.postimg.cc/cHMLnZGn/panier.png">
+		</a>
+</header>
+
+<div class="banniere">
+	<div class="slider-wrapper">
+		  <button class="slide-arrow" id="slide-arrow-prev">
+		    &#8249;
+		  </button>
+		  <button class="slide-arrow" id="slide-arrow-next">
+		    &#8250;
+		  </button>
+		  <ul class="slides-container" id="slides-container">
+		    <li class="slide"></li>
+		    <li class="slide"></li>
+		    <li class="slide"></li>
+		    <li class="slide"></li>
+		  </ul>
+	</div>
+</div> <!-- banniere fermée -->
+<div class="mainAndAside">
+
+	<main class="main" id ="main"></main>
+	
+	<div class="totalAside">
+		<p class="fontAside">Total à payer:</p>
+		<p class="totalPx">
+			<span id="totalPx"></span>
+			€
+		</p>
+		<div class="buttonsSide">
+			<div class="button-lien">
+				<a href="recupTab.html">
+					<button id="button-lien" class="butLien">
+						Payer
+					</button>
+				</a>
+			</div>
+			<div class="videPanier">
+				<button  type="button" id="emptyBasket"class="buttonVider">
+					<img src="https://cdn-icons-png.flaticon.com/512/5028/5028066.png" alt="trashcan" height ="50" width="50"/>
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<footer class="footer-distributed">
+
+  	<div class="footer-left">
+
+    	<p class="footer-links">
+	      	<a class="link-1" href="index.html">Accueil</a>
+	      	<a href="equipe.html">L'équipe</a>
+	      	<a href="recupTab.html">panier</a>
+    	</p>
+    	<p>
+    		Paint Wars &copy; 2022
+    	</p>
+
+    	<a href="#" style="text-decoration: none; color:white;">
+    		Politique de confidentialités
+    	</a>
+    </div>
+    <div class="footer-right">
+    	<a href="https://www.facebook.com" target="blank">
+    		<img src="https://i.postimg.cc/xd9X69qk/fb.png" style="width: 28px; padding-bottom: 2px;" />
+    	</a>
+    	<a href="https://www.instagram.com" target="blank">
+    		<img src="https://i.postimg.cc/766fyX3w/insta.png" style="width: 33px;margin-right: 2px ;"/>
+    	</a>
+    	<a href="https://www.linkedin.com" target="blank">
+    		<img src="https://i.postimg.cc/QMSHPvWf/linkedin.png" style="width: 36px;"/>
+    	</a>
+    </div>
+</footer>
+</body>
+<script src="recupTab.js"></script>
+
+
+
+</html>

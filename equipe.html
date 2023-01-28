@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Prompt:wght@400;700&display=swap" rel="stylesheet">
+	<title>Équipe - Paint Wars</title>
+	<link rel="icon" href="https://i.postimg.cc/wx2w2dWC/142-1428702-free-download-rebel-alliance-symbol-clipart-anakin-rebel.jpg">
+</head>
+<body>
+
+<header class="topbar">
+	<nav>
+		<a href="index.html" title="Accueil">Accueil</a>
+		<a href="equipe.html"   title="L'équipe" class="active">L'équipe</a>
+		<a href="recupTab.html" title="Votre panier">Votre panier</a>
+	</nav>
+		<div class="site-title">
+			<a href="index.html" class="button-home"><img id="logoSite" src="https://i.postimg.cc/zB0TCqJp/142-1428702-free-download-rebel-alliance-symbol-clipart-anakin-rebel-removebg-preview.png" alt="logo"/><img id="titreSite" src="https://i.postimg.cc/gJ35NSRL/titre-site-Paint-Wars.png" alt="titre"/></a>
+			</a>
+		</div>
+		<a href="recupTab.html" >
+			<div class="nbArt" id="nbArt"></div>
+			<img id="icone-panier" alt="panier" title="panier" src="https://i.postimg.cc/cHMLnZGn/panier.png">
+		</a>
+</header>
+
+	<div class="banniere">
+    <section class="slider-wrapper">
+		  <button class="slide-arrow" id="slide-arrow-prev">
+		    &#8249;
+		  </button>
+		  <button class="slide-arrow" id="slide-arrow-next">
+		    &#8250;
+		  </button>
+		  <ul class="slides-container" id="slides-container">
+		    <li class="slide"></li>
+		    <li class="slide"></li>
+		    <li class="slide"></li>
+		    <li class="slide"></li>
+		  </ul>
+	</section>
+	</div>
+	<div class="body">
+		<main class="main">
+			<div class="container">
+				<article class="article">
+				
+				<div class="title-text"> <h1 class="title-h1">Découvrez l'équipe</h1>
+				<p>C'est avec plaisir que toute l'équipe vous accueille afin de vous offrir le meilleur service possible.</p>
+
+      
+            <div class="lesBoutons">
+                <button class="button-casser" onclick="casser()">Supprimer</button>
+                <button class="button-modify" onclick="modify()">Modifier</button>
+                <button class="button-add" onclick="addtask()">Ajouter</button>
+            </div>
+        </div>    
+                
+          <div class="lesImages">
+              <div class="image-card" id="adri'han solo">
+                  <img src="https://i.postimg.cc/x86Wz6Wr/hanSolo.jpg" alt="img">
+                  <h2 class="membresEquipe1">Adri'han Solo</h2>
+              
+                  <h3 class="h3">Responsable page panier</h3>
+                  <p class="lesPostes">Adri'han s'assurera que vos achats soient effectués dans les meilleures conditions</p>
+              </div>
+              <div class="image-card" id="flobi-wan-kenobi">
+                <img src="https://i.postimg.cc/44wCq3n8/obiwa.jpg" alt="img">
+                <h2 class="membresEquipe2">Flobi-Wan-Kenobi</h2>
+                
+                <h3 class="h3">Responsable page équipe</h3>
+                <p class="lesPostes">Flobi-Wan a comme mission la présentation des différents membres de l'équipe</p>
+              </div>
+              <div class="image-card" id="gioda">
+                <img src="https://i.postimg.cc/WzNBzBY6/yoda-equipe.jpg" alt="img">
+                <h2 class="membresEquipe3">Gioda</h2> 
+                
+                <h3 class="h3">Responsable page magasin</h3>
+                <p class="lesPostes">Gioda veillera à vous proposer les meilleurs produits au meilleur prix</p>
+              </div>
+           </div>
+				
+				</article>
+			</div>
+		</main>
+
+		
+		</ul>
+		</aside>
+	</div>
+<footer class="footer-distributed">
+
+  	<div class="footer-left">
+
+    	<p class="footer-links">
+
+	      	<a class="link-1" href="index.html">Accueil</a>
+
+	      	<a href="equipe.html">L'équipe</a>
+
+	      	<a href="recupTab.html" id="panier">panier</a>
+
+    	</p>
+
+    	<p>Paint Wars &copy; 2022</p>
+
+    	<a href="#" style="text-decoration: none; color:white;">Politique de confidentialités</a>
+    </div>
+    <div class="footer-right">
+    	<a href="https://www.facebook.com" target="blank">
+    		<img src="https://i.postimg.cc/xd9X69qk/fb.png" style="width: 28px; padding-bottom: 2px;" />
+    	</a>
+    	<a href="https://www.instagram.com" target="blank">
+    		<img src="https://i.postimg.cc/766fyX3w/insta.png" style="width: 33px;margin-right: 2px ;"/>
+    	</a>
+    	<a href="https://www.linkedin.com" target="blank">
+    		<img src="https://i.postimg.cc/QMSHPvWf/linkedin.png" style="width: 36px;"/>
+    	</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
